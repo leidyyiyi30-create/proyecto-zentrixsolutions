@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos_generales_contacto.css">
+</head>
+<body>
+ <header>
+</header>
+
+<!--MENÚ-->
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+            <div>
+                <h3>INSTITUCIÓN EDUCATIVA SEMILLITAS DEL SABER</h3>
+                <p>Formación para la vida </p>
+                <p> Excelencia y Tradición</p>
+            </div>
+        </div>
+
+        <ul class="menu">
+
+            <!--Opción Inicio-->
+            <li><a href="index.html">Inicio</a></li>
+
+            <!--Opción Nosotros-->
+            <li class="submenu">
+                <a href="nosotros.html">Nosotros &#9662;</a>
+                <ul class="submenu">
+                    <li><a href="nosotros.html#historia">Historia</a></li>
+                    <li><a href="nosotros.html#mision">Misión</a></li>
+                    <li><a href="nosotros.html#vision">Visión</a></li>
+                    <li><a href="nosotros.html#perfil">Perfil</a></li>
+                    <li><a href="nosotros.html#instalaciones">Instalaciones</a></li>
+                </ul>
+
+            </li>
+
+            <!--Opción Programas Académicos-->
+            <li class="submenu">
+                <a href="programas_academicos.html">Programas Académicos &#9662;</a>
+                <ul class="submenu">
+                    <li><a href="programa_academico_preescolar.html">Preescolar</a></li>
+                    <li><a href="programa_academico_primaria.html">Primaria</a></li>
+                    <li><a href="programa_academico_bachillerato.html">Bachillerato</a></li>
+                </ul>
+            </li>
+
+            <!--Opción Servicios-->
+            <li><a href="servicios.html">Servicios</a></li>
+
+            <!--Opción Noticias-->
+            <li><a href="noticias.html">Noticias</a></li>
+
+            <!--Opción Contactos-->
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+</nav>
+
+<div class="contenedor">
+  <h1>Formulario de Inscripción de Estudiantes</h1>
+
+  <form>
+
+    <div class="grupo">
+      <label>Nombre completo</label>
+      <input type="text" placeholder="Ingrese su nombre" required>
+    </div>
+
+    <div class="grupo">
+      <label>Correo electrónico</label>
+      <input type="email" placeholder="ejemplo@gmail.com" required>
+    </div>
+
+    <div class="grupo">
+      <label>Teléfono</label>
+      <input type="tel" placeholder="301435896" required>
+    </div>
+
+    <div class="grupo">
+        <label>Grado</label>
+        <select required>
+         <option value="">Seleccione una opción</option>
+         <option>Primero</option>
+        <option>Segundo</option>
+        <option>Tercero</option>
+        </select>
+    </div>
+
+    <div class="grupo">
+      <label>Servicios de Interés</label>
+      <div class="radio">
+        <label><input type="radio" name="genero"> Biblioteca</label>
+        <label><input type="radio" name="genero"> Transporte Escolar</label>
+        <label><input type="radio" name="genero"> Psicología</label>
+        <label><input type="radio" name="genero"> Restaurante</label>
+      </div>
+    </div>
+
+    <div class="grupo">
+        <label for="comentarios">Comentarios</label>
+        <textarea  id="comentarios" name="comentarios" rows="5" placeholder="Escribe tus comentarios aquí"></textarea>
+        
+    </div>
+    <div class="grupo-terminos">
+      <label>
+        <input type="checkbox" required>
+        Acepto términos y condiciones
+      </label>
+    </div>
+
+    <div class="botones">
+    <button type="submit">ENVIAR</button>
+    <button type="reset">LIMPIAR</button>
+    </div>
+    
+  </form>
+
+</div>
+
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <p><i class="fa-solid fa-location-dot"></i> Calle 15 #10-25 Tunja, Boyacá</p>
+
+        <p><i class="fa-solid fa-phone"></i>(608) 7421234</p>
+
+        <p><i class="fa-solid fa-envelope"></i>info@semillitasdelsaber.edu.co</p>
+
+        <div class="redes">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
