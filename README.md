@@ -77,9 +77,9 @@ Institucion_Educativa/
 ## Instalación
 
 ```bash
-git clone https://github.com/TU-USUARIO/NOMBRE-DEL-REPOSITORIO.git
+git clone https://github.com/leidyyiyi30-create/proyecto-zentrixsolutions.git
 
-cd NOMBRE-DEL-REPOSITORIO
+cd Institucion-Educativa
 ```
 
 ---
