@@ -41,6 +41,7 @@ Institucion_Educativa/
 │── programas_academicos.html
 │── servicios.html
 │── README.md
+│── LICENSE
 ```
 
 ---
@@ -70,7 +71,7 @@ Institucion_Educativa/
 
 ## Estado del Proyecto
 
-🚧 En desarrollo.
+Completado. El sistema ha finalizado su etapa de desarrollo principal y se encuentra en una fase de mejora continua, corrección de detalles y optimización de funcionalidades. 
 
 ---
 
@@ -98,10 +99,16 @@ Proyecto desarrollado con fines académicos como práctica de desarrollo web y c
 
 ## Autor
 
-**Zentrix Solutions**
+**Leidy Prieto**
+
+---
+
+## Versión actualizada del proyecto. Cambios que pueden mejorarlo. 
+
+**Zentrix Solution**
 
 ---
 
 ## Licencia
 
-Proyecto desarrollado con fines académicos.
+MIT - Proyecto desarrollado con fines académicos.
