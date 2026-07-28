@@ -558,3 +558,29 @@ footer p{
 .redes a:hover{
     color: white;
 }
+
+.clientes{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.tarjeta-cliente{
+    width: 350px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    padding: 20px;
+}
+
+.tarjeta-cliente img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tarjeta-cliente h3{
+    margin: 15px 0 10px;
+}
+
+.tarjeta-cliente p{
+    color: #555;
