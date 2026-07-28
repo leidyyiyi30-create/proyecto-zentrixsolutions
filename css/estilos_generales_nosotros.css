@@ -584,3 +584,48 @@ footer p{
 
 .tarjeta-cliente p{
     color: #555;
+
+
+.tarjeta-testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tarjeta-testimonios .tarjeta {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+}
+
+.tarjeta-testimonios .tarjeta img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.tarjeta-testimonios .tarjeta h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.tarjeta-testimonios .tarjeta .cargo {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.tarjeta-testimonios .tarjeta p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
