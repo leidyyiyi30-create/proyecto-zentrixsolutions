@@ -52,14 +52,17 @@ nav{
 
 .menu a{
     display: block;
-    color: #000000;
+    background-color: #1976D2;
+    color: white;
     text-decoration: none;
     padding: 15px 20px;
-    border-radius: 20px;
+    border-radius: 25px;
+    transition: 0.3s;
 }
 
 .menu a:hover{
-    background-color: #fff; /* Cambia el color al pasar el mouse */
+    background-color: #0D47A1;
+    color: rgb(70, 69, 69);
 }
 
 /* ===== Submenú desplegable (solo CSS)=====*/
