@@ -139,8 +139,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn-conoce-mas {
+    display: inline-block;
+    background-color: #1565C0;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 32px;
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    transition: all 0.3s ease;
 }
 
+.btn-conoce-mas:hover {
+    background-color: #42A5F5;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
 .banner h1{
     color: #000000;
     font-size: 50px;
